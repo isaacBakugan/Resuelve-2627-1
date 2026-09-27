@@ -1,5 +1,5 @@
 import matplotlib.pyplot 
-
+#Tarea 1 Christian Goncalves
 E = 2.718281828459045  # numero de euler
 
 def leer_csv(nombre_archivo):
