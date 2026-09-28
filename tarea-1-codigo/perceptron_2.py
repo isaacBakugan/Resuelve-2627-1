@@ -1,5 +1,5 @@
 from matplotlib import pyplot as plt
-
+#Tarea 1 Arturo Pulgar
 
 def leer_csv(ruta_archivo):
     with open(ruta_archivo, "r", encoding="utf-8") as archivo:
