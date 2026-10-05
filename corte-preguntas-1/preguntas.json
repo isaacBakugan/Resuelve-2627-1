@@ -1,526 +1,526 @@
 {
-  "team": "",
+  "team": "Resuelve",
   "assignment": "corte-preguntas-1",
   "questions": [
     {
       "id": "tue1-tf-1",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 1",
+      "statement": "Según la definición de Mitchell citada por Goodfellow et al., un programa aprende de la experiencia E con respecto a una clase de tareas T y una medida de desempeño P si su desempeño en T, medido por P, mejora con E.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 2
     },
     {
       "id": "tue1-tf-2",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 1",
+      "statement": "Goodfellow et al. consideran que el proceso de aprendizaje en sí mismo es la tarea T que el algoritmo debe resolver.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 4
     },
     {
       "id": "tue1-tf-3",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 1",
+      "statement": "La tasa de error (error rate) puede interpretarse como la pérdida 0-1 esperada del modelo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 6
     },
     {
       "id": "tue1-tf-4",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 1",
+      "statement": "La distinción entre aprendizaje supervisado y no supervisado es rígida: un problema no supervisado no puede reformularse como uno supervisado.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 8
     },
     {
       "id": "tue1-tf-5",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 1",
+      "statement": "En el ejemplo de regresión lineal de la sección 5.1, los pesos que minimizan el MSE de entrenamiento se obtienen igualando a cero su gradiente, lo que conduce a las ecuaciones normales.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 6
     },
     {
       "id": "tue1-mc-1",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 1",
+      "statement": "¿Qué tarea consiste en recibir un ejemplo corrompido x̃ y producir una predicción del ejemplo limpio original x?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Transcripción",
+        "Detección de anomalías",
+        "Eliminación de ruido (denoising)",
+        "Estimación de densidad"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Eliminación de ruido (denoising)",
+      "difficulty_level": 4
     },
     {
       "id": "tue1-mc-2",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 1",
+      "statement": "¿Qué medida de desempeño se usa típicamente en tareas de estimación de densidad?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "La exactitud (accuracy)",
+        "La tasa de error de clasificación",
+        "El error cuadrático medio sobre el conjunto de entrenamiento",
+        "La log-probabilidad promedio que el modelo asigna a los ejemplos"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "La log-probabilidad promedio que el modelo asigna a los ejemplos",
+      "difficulty_level": 5
     },
     {
       "id": "tue1-mc-3",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 1",
+      "statement": "¿Por qué el desempeño de un algoritmo de aprendizaje se mide normalmente sobre un conjunto de prueba separado del de entrenamiento?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque el conjunto de prueba siempre es más grande",
+        "Porque interesa saber qué tan bien funciona con datos que no ha visto",
+        "Porque el MSE solo puede calcularse en datos de prueba",
+        "Porque el conjunto de entrenamiento siempre contiene ruido"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Porque interesa saber qué tan bien funciona con datos que no ha visto",
+      "difficulty_level": 3
     },
     {
       "id": "tue1-mc-4",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 1",
+      "statement": "¿Cómo se representa el conjunto de datos Iris (150 plantas, 4 características) como matriz de diseño?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Una matriz de 150 × 150 de distancias entre plantas",
+        "Un vector de 600 elementos sin estructura de filas",
+        "Una matriz de 150 × 4, con una fila por ejemplo y una columna por característica",
+        "Una matriz de 4 × 150, con una columna por ejemplo"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Una matriz de 150 × 4, con una fila por ejemplo y una columna por característica",
+      "difficulty_level": 5
     },
     {
       "id": "tue1-mc-5",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 1",
+      "statement": "En el modelo ŷ = wᵀx + b, ¿por qué al parámetro b se le llama 'sesgo' (bias)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque refleja prejuicios presentes en los datos",
+        "Porque en ausencia de entrada la salida de la transformación se desplaza hacia b",
+        "Porque mide el sesgo estadístico del estimador",
+        "Porque representa el error del modelo en el conjunto de prueba"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Porque en ausencia de entrada la salida de la transformación se desplaza hacia b",
+      "difficulty_level": 6
     },
     {
       "id": "thu1-tf-1",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 1",
+      "statement": "Según Russell y Norvig, cuando la salida y toma valores de un conjunto finito (por ejemplo soleado, nublado o lluvioso), el problema de aprendizaje se llama regresión.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 2
     },
     {
       "id": "thu1-tf-2",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 1",
+      "statement": "En regresión lineal con pérdida L2, la función de pérdida es convexa, por lo que no presenta mínimos locales distintos del global.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 5
     },
     {
       "id": "thu1-tf-3",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 1",
+      "statement": "La regularización L1 tiende a producir modelos dispersos (sparse), es decir, con muchos pesos iguales a cero.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 4
     },
     {
       "id": "thu1-tf-4",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 1",
+      "statement": "Con una tasa de aprendizaje fija, la regla de aprendizaje del perceptrón converge a una solución estable aunque los datos no sean linealmente separables.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 6
     },
     {
       "id": "thu1-tf-5",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 1",
+      "statement": "Una red feed-forward tiene estado interno además de sus pesos, por lo que puede soportar memoria de corto plazo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 5
     },
     {
       "id": "thu1-mc-1",
       "reading": "thursday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 1",
+      "statement": "Un agente taxista que interpreta la falta de propina al final del viaje como señal de que hizo algo mal es un ejemplo de:",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Aprendizaje supervisado",
+        "Aprendizaje deductivo",
+        "Aprendizaje por refuerzo",
+        "Aprendizaje no supervisado"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Aprendizaje por refuerzo",
+      "difficulty_level": 3
     },
     {
       "id": "thu1-mc-2",
       "reading": "thursday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 1",
+      "statement": "¿Cómo se llama el principio de preferir la hipótesis más simple que sea consistente con los datos?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Regla de Bayes",
+        "Descenso de gradiente",
+        "Realizabilidad",
+        "Navaja de Ockham"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Navaja de Ockham",
+      "difficulty_level": 2
     },
     {
       "id": "thu1-mc-3",
       "reading": "thursday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 1",
+      "statement": "¿Por qué no se puede entrenar un clasificador lineal con umbral duro mediante descenso de gradiente?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque el umbral duro siempre devuelve 0.5 en la frontera",
+        "Porque el gradiente es cero casi en todo el espacio de pesos e indefinido donde w·x = 0",
+        "Porque el umbral duro solo funciona con una entrada",
+        "Porque la función de pérdida tiene infinitos mínimos globales"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Porque el gradiente es cero casi en todo el espacio de pesos e indefinido donde w·x = 0",
+      "difficulty_level": 6
     },
     {
       "id": "thu1-mc-4",
       "reading": "thursday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 1",
+      "statement": "Una red de perceptrones de una sola capa aprende fácilmente el bit de acarreo (carry) de un sumador de dos bits, pero no el bit de suma. ¿Por qué?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque la tasa de aprendizaje de esa unidad es demasiado alta",
+        "Porque el acarreo requiere una capa oculta y la suma no",
+        "Porque la suma es un XOR, que no es linealmente separable",
+        "Porque la unidad de salida de la suma está defectuosa"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Porque la suma es un XOR, que no es linealmente separable",
+      "difficulty_level": 5
     },
     {
       "id": "thu1-mc-5",
       "reading": "thursday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 1",
+      "statement": "En el algoritmo de retropropagación de Russell y Norvig, ¿cómo se calcula el término Δⱼ de una unidad oculta j?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Δⱼ = yⱼ − aⱼ",
+        "Δⱼ = Σₖ wⱼ,ₖ aₖ",
+        "Δⱼ = g'(inⱼ) · (yⱼ − aⱼ)",
+        "Δⱼ = g'(inⱼ) · Σₖ wⱼ,ₖ Δₖ"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Δⱼ = g'(inⱼ) · Σₖ wⱼ,ₖ Δₖ",
+      "difficulty_level": 8
     },
     {
       "id": "tue2-tf-1",
       "reading": "tuesday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 2",
+      "statement": "El teorema de aproximación universal garantiza que un perceptrón multicapa puede representar exactamente cualquier función continua.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 4
     },
     {
       "id": "tue2-tf-2",
       "reading": "tuesday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 2",
+      "statement": "Según Keller et al., la diferenciabilidad es el único requisito que debe cumplir una función de activación para usarse con retropropagación.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 5
     },
     {
       "id": "tue2-tf-3",
       "reading": "tuesday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 2",
+      "statement": "En el aprendizaje por lotes (batch), los pesos sinápticos se ajustan después de presentar cada ejemplo individual.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 2
     },
     {
       "id": "tue2-tf-4",
       "reading": "tuesday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 2",
+      "statement": "La naturaleza estocástica del aprendizaje en línea (online) hace menos probable que el proceso de aprendizaje quede atrapado en un mínimo local.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 5
     },
     {
       "id": "tue2-tf-5",
       "reading": "tuesday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 2",
+      "statement": "El término de momento hace que los ajustes de los pesos crezcan cuando la derivada parcial ∂E/∂w cambia de signo en iteraciones consecutivas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 6
     },
     {
       "id": "tue2-mc-1",
       "reading": "tuesday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 2",
+      "statement": "¿Qué condiciones debe cumplir la función φ(·) en el teorema de aproximación universal (Teorema 3.1)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Diferenciable y no acotada",
+        "No constante, acotada, monótona creciente y continua",
+        "Lineal y acotada",
+        "Periódica y discontinua"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "No constante, acotada, monótona creciente y continua",
+      "difficulty_level": 4
     },
     {
       "id": "tue2-mc-2",
       "reading": "tuesday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 2",
+      "statement": "¿Por qué el gradiente local de una neurona oculta debe calcularse de forma recursiva hacia atrás?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque su tasa de aprendizaje es cero",
+        "Porque su función de activación no es diferenciable",
+        "Porque está conectada directamente a los nodos de entrada",
+        "Porque no tiene una respuesta deseada propia con la cual calcular su error"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Porque no tiene una respuesta deseada propia con la cual calcular su error",
+      "difficulty_level": 4
     },
     {
       "id": "tue2-mc-3",
       "reading": "tuesday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 2",
+      "statement": "Con la función logística φ(v) = 1/(1 + exp(−av)), ¿cómo se expresa la derivada φ'(vⱼ) en función de la salida yⱼ?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "exp(−a·vⱼ)",
+        "a(1 − yⱼ²)",
+        "a · yⱼ(1 − yⱼ)",
+        "yⱼ(1 + yⱼ)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "a · yⱼ(1 − yⱼ)",
+      "difficulty_level": 6
     },
     {
       "id": "tue2-mc-4",
       "reading": "tuesday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 2",
+      "statement": "En validación cruzada, ¿para qué se usa un conjunto de prueba distinto del subconjunto de validación?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Para estimar los pesos sinápticos de la red",
+        "Para reemplazar al subconjunto de estimación cuando hay pocos datos",
+        "Para medir la generalización del modelo elegido, ya que este pudo sobreajustarse al subconjunto de validación",
+        "Para elegir la tasa de aprendizaje inicial antes del entrenamiento"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Para medir la generalización del modelo elegido, ya que este pudo sobreajustarse al subconjunto de validación",
+      "difficulty_level": 8
     },
     {
       "id": "tue2-mc-5",
       "reading": "tuesday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 2",
+      "statement": "Según la sección 3.4.2, ¿cuándo ocurre el sobreajuste (overfitting)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Cuando la red tiene muy pocas neuronas ocultas",
+        "Cuando la red usa funciones de activación continuas",
+        "Cuando los datos de prueba provienen de la misma población que los de entrenamiento",
+        "Cuando la red memoriza los datos aprendiendo rasgos presentes en el entrenamiento pero no en la función subyacente"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Cuando la red memoriza los datos aprendiendo rasgos presentes en el entrenamiento pero no en la función subyacente",
+      "difficulty_level": 3
     },
     {
       "id": "thu2-tf-1",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 2",
+      "statement": "Como la ReLU no es diferenciable en z = 0, no puede usarse con aprendizaje basado en gradientes.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 4
     },
     {
       "id": "thu2-tf-2",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 2",
+      "statement": "Goodfellow et al. desaconsejan usar la sigmoide logística como unidad oculta en redes feedforward porque se satura en gran parte de su dominio.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 4
     },
     {
       "id": "thu2-tf-3",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 2",
+      "statement": "El teorema de aproximación universal garantiza que el algoritmo de entrenamiento encontrará los parámetros que representan la función deseada.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 6
     },
     {
       "id": "thu2-tf-4",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 2",
+      "statement": "El término back-propagation se refiere solo al método para calcular el gradiente, no al algoritmo de aprendizaje completo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 5
     },
     {
       "id": "thu2-tf-5",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 2",
+      "statement": "Un modelo lineal puede representar la función XOR si se entrena con suficientes datos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 2
     },
     {
       "id": "thu2-mc-1",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 2",
+      "statement": "Partiendo de la generalización h = max(0, z) + α·min(0, z), ¿qué valor de α define la Leaky ReLU?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Un valor pequeño y fijo, como 0.01",
+        "α = −1",
+        "Un α aprendido durante el entrenamiento",
+        "α = 1"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Un valor pequeño y fijo, como 0.01",
+      "difficulty_level": 5
     },
     {
       "id": "thu2-mc-2",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Qué hace una unidad maxout?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Divide z en grupos de k valores y emite el máximo de cada grupo",
+        "Normaliza z con una función softmax",
+        "Aplica una ReLU con pendiente negativa aprendida",
+        "Aplica la tangente hiperbólica a cada componente de z"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Divide z en grupos de k valores y emite el máximo de cada grupo",
+      "difficulty_level": 6
     },
     {
       "id": "thu2-mc-3",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 2",
+      "statement": "Según Montufar et al. (2014), citados en la sección 6.4, ¿cómo crece el número de regiones lineales que puede representar una red rectificadora profunda?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Se mantiene constante sin importar la profundidad",
+        "Exponencialmente con la profundidad",
+        "Linealmente con la profundidad",
+        "Disminuye al aumentar la profundidad"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Exponencialmente con la profundidad",
+      "difficulty_level": 8
     },
     {
       "id": "thu2-mc-4",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Qué ventaja obtiene back-propagation al aplicar programación dinámica sobre el grafo computacional?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Reduce el número de parámetros de la red",
+        "Evita recalcular muchas veces las subexpresiones repetidas de la regla de la cadena",
+        "Elimina la necesidad de usar la regla de la cadena",
+        "Garantiza encontrar el mínimo global de la función de costo"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Evita recalcular muchas veces las subexpresiones repetidas de la regla de la cadena",
+      "difficulty_level": 6
     },
     {
       "id": "thu2-mc-5",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 2",
+      "statement": "Para una salida binaria (distribución Bernoulli), ¿qué combinación recomiendan Goodfellow et al.?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Unidad softmax entrenada con error cuadrático medio",
+        "Unidad sigmoide entrenada con error cuadrático medio",
+        "Unidad lineal entrenada con error absoluto medio",
+        "Unidad sigmoide entrenada con máxima verosimilitud (entropía cruzada)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Unidad sigmoide entrenada con máxima verosimilitud (entropía cruzada)",
+      "difficulty_level": 6
     }
   ]
 }
