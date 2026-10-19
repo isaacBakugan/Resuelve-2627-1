@@ -1,706 +1,706 @@
 {
-  "team": "",
+  "team": "Resuelve",
   "assignment": "corte-preguntas-2",
   "questions": [
     {
       "id": "tue3-tf-1",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 3",
+      "statement": "Según Goodfellow et al., las redes convolucionales son redes neuronales que usan la convolución en lugar de la multiplicación general de matrices en al menos una de sus capas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "Convolutional networks are simply neural networks that use convolution in place of general matrix multiplication in at least one of their layers."
     },
     {
       "id": "tue3-tf-2",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 3",
+      "statement": "Según Goodfellow et al., la propiedad conmutativa de la convolución suele ser una propiedad importante en la implementación de una red neuronal.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "While the commutative property is useful for writing proofs, it is not usually an important property of a neural network implementation."
     },
     {
       "id": "tue3-tf-3",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 3",
+      "statement": "La operación de convolución es naturalmente equivariante a los cambios de escala y a las rotaciones de una imagen.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "Convolution is not naturally equivariant to some other transformations, such as changes in the scale or rotation of an image."
     },
     {
       "id": "tue3-tf-4",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 3",
+      "statement": "Vistos como una distribución a priori infinitamente fuerte, la convolución y el pooling pueden provocar subajuste cuando la tarea depende de preservar información espacial precisa.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "One key insight is that convolution and pooling can cause underfitting."
     },
     {
       "id": "tue3-tf-5",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 3",
+      "statement": "En una convolución 'valid', si la imagen de entrada tiene ancho m y el kernel tiene ancho k, la salida tiene ancho m + k − 1.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 8,
+      "source_quote": "If the input image has width m and the kernel has width k, the output will be of width m − k + 1."
     },
     {
       "id": "tue3-mc-1",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 3",
+      "statement": "¿Cuáles son las tres ideas importantes que aprovecha la convolución para mejorar un sistema de aprendizaje automático?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Conexiones densas, pesos independientes y representaciones invariantes a la escala",
+        "Interacciones dispersas, compartición de parámetros y representaciones equivariantes",
+        "Retropropagación, término de momento y regularización L2",
+        "Pooling, normalización por lotes y dropout"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Interacciones dispersas, compartición de parámetros y representaciones equivariantes",
+      "difficulty_level": 3,
+      "source_quote": "Convolution leverages three important ideas that can help improve a machine learning system: sparse interactions, parameter sharing and equivariant representations."
     },
     {
       "id": "tue3-mc-2",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 3",
+      "statement": "En una capa convolucional típica de tres etapas, ¿cómo se llama la etapa en la que cada activación lineal pasa por una función no lineal como la ReLU?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Etapa de pooling",
+        "Etapa de convolución",
+        "Etapa de normalización",
+        "Etapa detectora (detector stage)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Etapa detectora (detector stage)",
+      "difficulty_level": 4,
+      "source_quote": "This stage is sometimes called the detector stage."
     },
     {
       "id": "tue3-mc-3",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 3",
+      "statement": "¿Qué propiedad le aporta el pooling a la representación que produce una red convolucional?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Invariancia aproximada a pequeñas traslaciones de la entrada",
+        "Equivarianza exacta a las rotaciones de la imagen",
+        "Un mayor número de parámetros en cada capa",
+        "Sensibilidad a la posición exacta de cada píxel"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Invariancia aproximada a pequeñas traslaciones de la entrada",
+      "difficulty_level": 3,
+      "source_quote": "In all cases, pooling helps to make the representation become approximately invariant to small translations of the input."
     },
     {
       "id": "tue3-mc-4",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 3",
+      "statement": "¿Qué variante ofrece un compromiso entre una capa convolucional y una capa localmente conectada, aprendiendo un conjunto de kernels que se van rotando al moverse por el espacio?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Convolución no compartida (unshared convolution)",
+        "Convolución 'same'",
+        "Convolución en mosaico (tiled convolution)",
+        "Convolución separable"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Convolución en mosaico (tiled convolution)",
+      "difficulty_level": 7,
+      "source_quote": "Tiled convolution (Gregor and LeCun, 2010a; Le et al., 2010) offers a compromise between a convolutional layer and a locally connected layer."
     },
     {
       "id": "tue3-mc-5",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 3",
+      "statement": "En la analogía con la corteza visual primaria (V1), ¿qué componente de una red convolucional está inspirado en las células complejas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Las unidades detectoras",
+        "Las unidades de pooling",
+        "La capa totalmente conectada final",
+        "La función softmax de salida"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Las unidades de pooling",
+      "difficulty_level": 6,
+      "source_quote": "complex cells are invariant to small shifts in the position of the feature. This inspires the pooling units of convolutional networks."
     },
     {
       "id": "thu3-tf-1",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 3",
+      "statement": "En la red de Hopfield, el número de lazos de retroalimentación es igual al número de neuronas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "The number of feedback loops is equal to the number of neurons."
     },
     {
       "id": "thu3-tf-2",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 3",
+      "statement": "En el modelo de Hopfield, cada neurona se retroalimenta a sí misma a través de un elemento de retardo unitario.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "Basically, there is no self-feedback in the model."
     },
     {
       "id": "thu3-tf-3",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 3",
+      "statement": "En el modelo discreto de Hopfield, si el campo local inducido de la neurona j en el instante k + 1 es cero, la neurona permanece en su estado anterior.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "Note that neuron j remains in its previous state if vj(k + 1) is zero."
     },
     {
       "id": "thu3-tf-4",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 3",
+      "statement": "En la red de Grossberg, la capa 1 es un modelo aproximado de la corteza visual y la capa 2 representa a la retina.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "Layer 1 is a rough model of the operation of the retina, while Layer 2 represents the visual cortex."
     },
     {
       "id": "thu3-tf-5",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 3",
+      "statement": "La principal diferencia entre la capa 2 y la capa 1 de la red de Grossberg es que la capa 2 usa conexiones de retroalimentación.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 6,
+      "source_quote": "The main difference between layer 2 and layer 1 is that layer 2 uses feedback connections."
     },
     {
       "id": "thu3-mc-1",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Quién inventó la red de Hopfield y en qué año?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Stephen Grossberg, en 1983",
+        "Leon O. Chua, en 1988",
+        "John Hopfield, en 1982",
+        "Michael A. Cohen, en 1976"
       ],
-      "correct_option": "Opción A (edítenla)",
+      "correct_option": "John Hopfield, en 1982",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "The Hopfield network is a form of recurrent artificial neural network invented by John Hopfield in 1982."
     },
     {
       "id": "thu3-mc-2",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Cómo se comporta la función de transferencia satlins que se usa en la red de Hopfield?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Es lineal en el rango [−1, 1] y se satura en 1 o en −1 fuera de ese rango",
+        "Es una función escalón que solo devuelve 0 o 1",
+        "Es una sigmoide logística con salida entre 0 y 1",
+        "Es lineal en todo su dominio y nunca se satura"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Es lineal en el rango [−1, 1] y se satura en 1 o en −1 fuera de ese rango",
+      "difficulty_level": 5,
+      "source_quote": "satlins is the transfer function that is linear in the range [−1, 1], and saturates at 1 for inputs greater than 1 and at −1 for inputs less than −1."
     },
     {
       "id": "thu3-mc-3",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 3",
+      "statement": "Según Grossberg, ¿cómo se llama el procesamiento compensatorio del sistema visual que completa los bordes faltantes?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Relleno de características (featural filling-in)",
+        "Constancia de brillo (brightness constancy)",
+        "Contraste de brillo (brightness contrast)",
+        "Segmentación emergente (emergent segmentation)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Segmentación emergente (emergent segmentation)",
+      "difficulty_level": 6,
+      "source_quote": "The first, which he calls emergent segmentation, completes missing boundaries."
     },
     {
       "id": "thu3-mc-4",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Cómo llama Grossberg al proceso de normalización que permite compensar la intensidad absoluta de la luz de una escena?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Memoria de largo plazo (long-term memory)",
+        "Descontar el iluminante (discounting the illuminant)",
+        "Integración con fuga (leaky integration)",
+        "Mejora del contraste (contrast enhancement)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Descontar el iluminante (discounting the illuminant)",
+      "difficulty_level": 7,
+      "source_quote": "Grossberg calls this process of normalization “discounting the illuminant.”"
     },
     {
       "id": "thu3-mc-5",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 3",
+      "statement": "En la red de Grossberg, ¿por qué los pesos adaptativos W² se denominan memoria de largo plazo (LTM)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque se calculan una sola vez al inicio y no vuelven a cambiar",
+        "Porque guardan la salida de la capa 1 en cada instante de tiempo",
+        "Porque sus filas representan patrones almacenados que la red podrá reconocer",
+        "Porque forman la entrada inhibitoria de la capa 1"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque sus filas representan patrones almacenados que la red podrá reconocer",
+      "difficulty_level": 8,
+      "source_quote": "This is because the rows of W2 will represent patterns that have been stored and that the network will be able to recognize."
     },
     {
       "id": "tue4-tf-1",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 4",
+      "statement": "El Transformer prescinde por completo de la recurrencia y de las convoluciones, y se basa únicamente en mecanismos de atención.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely."
     },
     {
       "id": "tue4-tf-2",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 4",
+      "statement": "En el Transformer, el codificador está compuesto por una pila de N = 6 capas idénticas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "The encoder is composed of a stack of N = 6 identical layers."
     },
     {
       "id": "tue4-tf-3",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 4",
+      "statement": "Los autores encontraron que los embeddings posicionales aprendidos daban resultados claramente peores que la codificación posicional sinusoidal.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "We also experimented with using learned positional embeddings [8] instead, and found that the two versions produced nearly identical results"
     },
     {
       "id": "tue4-tf-4",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 4",
+      "statement": "Una capa de auto-atención necesita O(n) operaciones secuenciales para conectar todas las posiciones, igual que una capa recurrente.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires O(n) sequential operations."
     },
     {
       "id": "tue4-tf-5",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 4",
+      "statement": "Según Vaswani et al., el suavizado de etiquetas (label smoothing) empeora la perplejidad, pero mejora la exactitud y el puntaje BLEU.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "This hurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score."
     },
     {
       "id": "tue4-mc-1",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 4",
+      "statement": "¿Por qué la atención de producto punto escalado divide los productos punto entre la raíz cuadrada de d_k?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque así se vuelve matemáticamente equivalente a la atención aditiva",
+        "Para reducir el número de parámetros de cada cabeza de atención",
+        "Para que los pesos de atención sumen exactamente 1",
+        "Porque con d_k grande los productos punto crecen y llevan a la softmax a regiones con gradientes extremadamente pequeños"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque con d_k grande los productos punto crecen y llevan a la softmax a regiones con gradientes extremadamente pequeños",
+      "difficulty_level": 7,
+      "source_quote": "We suspect that for large values of dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients"
     },
     {
       "id": "tue4-mc-2",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 4",
+      "statement": "¿Cuántas capas de atención en paralelo (cabezas) usa el modelo base del Transformer?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "1",
+        "8",
+        "6",
+        "64"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "8",
+      "difficulty_level": 3,
+      "source_quote": "In this work we employ h = 8 parallel attention layers, or heads."
     },
     {
       "id": "tue4-mc-3",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 4",
+      "statement": "En las capas de atención codificador-decodificador, ¿de dónde provienen las consultas (queries) y de dónde las claves y los valores?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Consultas, claves y valores vienen todos de la salida del codificador",
+        "Las consultas vienen del codificador; las claves y valores, de la capa anterior del decodificador",
+        "Las consultas vienen de la capa anterior del decodificador; las claves y valores, de la salida del codificador",
+        "Consultas, claves y valores vienen todos de la capa anterior del decodificador"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Las consultas vienen de la capa anterior del decodificador; las claves y valores, de la salida del codificador",
+      "difficulty_level": 6,
+      "source_quote": "the queries come from the previous decoder layer, and the memory keys and values come from the output of the encoder."
     },
     {
       "id": "tue4-mc-4",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 4",
+      "statement": "¿Para qué se enmascaran (poniéndolas en −∞) ciertas entradas de la softmax en la auto-atención del decodificador?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Para impedir el flujo de información hacia la izquierda y preservar la propiedad autorregresiva",
+        "Para reducir el costo computacional de la atención en secuencias largas",
+        "Para que el decodificador ignore por completo la salida del codificador",
+        "Para aplicar dropout a los pesos de atención durante el entrenamiento"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Para impedir el flujo de información hacia la izquierda y preservar la propiedad autorregresiva",
+      "difficulty_level": 8,
+      "source_quote": "We need to prevent leftward information flow in the decoder to preserve the auto-regressive property."
     },
     {
       "id": "tue4-mc-5",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 4",
+      "statement": "¿Qué puntaje BLEU alcanzó el Transformer (big) en la tarea de traducción inglés-alemán de WMT 2014?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "41.0",
+        "27.3",
+        "23.75",
+        "28.4"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "28.4",
+      "difficulty_level": 4,
+      "source_quote": "establishing a new state-of-the-art BLEU score of 28.4."
     },
     {
       "id": "thu4-tf-1",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 4",
+      "statement": "Según Russell y Norvig, la racionalidad maximiza el desempeño esperado, mientras que la perfección maximiza el desempeño real.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "Rationality maximizes expected performance, while perfection maximizes actual performance."
     },
     {
       "id": "thu4-tf-2",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 4",
+      "statement": "En un entorno de tareas episódico, la decisión que toma el agente en un episodio afecta las decisiones de los episodios siguientes.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "Crucially, the next episode does not depend on the actions taken in previous episodes."
     },
     {
       "id": "thu4-tf-3",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 4",
+      "statement": "La distinción entre entornos conocidos y desconocidos es la misma que la distinción entre entornos totalmente y parcialmente observables.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "Note that the distinction between known and unknown environments is not the same as the one between fully and partially observable environments."
     },
     {
       "id": "thu4-tf-4",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 4",
+      "statement": "Según Russell y Norvig, el ajedrez jugado con reloj es un entorno semidinámico.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "Chess, when played with a clock, is semidynamic."
     },
     {
       "id": "thu4-tf-5",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 4",
+      "statement": "Según Russell y Norvig, los agentes de resolución de problemas usan representaciones atómicas, en las que los estados del mundo se consideran como un todo, sin estructura interna visible para los algoritmos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "states of the world are considered as wholes, with no internal structure visible to the problem-solving algorithms."
     },
     {
       "id": "thu4-mc-1",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 4",
+      "statement": "¿Qué significan las siglas PEAS que se usan para especificar un entorno de tareas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Performance, Environment, Actuators, Sensors (desempeño, entorno, actuadores y sensores)",
+        "Percepts, Environment, Actions, States (percepciones, entorno, acciones y estados)",
+        "Planning, Execution, Adaptation, Search (planificación, ejecución, adaptación y búsqueda)",
+        "Performance, Effectors, Agents, Strategies (desempeño, efectores, agentes y estrategias)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Performance, Environment, Actuators, Sensors (desempeño, entorno, actuadores y sensores)",
+      "difficulty_level": 2,
+      "source_quote": "we call this the PEAS (Performance, Environment, Actuators, Sensors) description."
     },
     {
       "id": "thu4-mc-2",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 4",
+      "statement": "¿Cuál es la diferencia entre el programa del agente y la función del agente?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El programa toma toda la historia de percepciones; la función recibe solo la percepción actual",
+        "El programa es una descripción matemática abstracta; la función es su implementación concreta",
+        "El programa recibe como entrada solo la percepción actual; la función toma toda la historia de percepciones",
+        "No hay diferencia: son dos nombres para la misma tabla de acciones"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "El programa recibe como entrada solo la percepción actual; la función toma toda la historia de percepciones",
+      "difficulty_level": 6,
+      "source_quote": "Notice the difference between the agent program, which takes the current percept as input, and the agent function, which takes the entire percept history."
     },
     {
       "id": "thu4-mc-3",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 4",
+      "statement": "¿En qué basa sus acciones un agente reflejo simple?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "En un modelo interno de cómo evoluciona el mundo",
+        "Solo en la percepción actual, ignorando el resto de la historia de percepciones",
+        "En una función de utilidad definida sobre los estados",
+        "En toda la secuencia de percepciones guardada en una tabla"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Solo en la percepción actual, ignorando el resto de la historia de percepciones",
+      "difficulty_level": 3,
+      "source_quote": "These agents select actions on the basis of the current percept, ignoring the rest of the percept history."
     },
     {
       "id": "thu4-mc-4",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 4",
+      "statement": "Según Russell y Norvig, ¿cuáles son los componentes con los que se define formalmente un problema?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Estado inicial, estado objetivo y una función heurística",
+        "Percepciones, acciones, recompensas y política",
+        "Espacio de estados, profundidad máxima y factor de ramificación",
+        "Estado inicial, acciones, modelo de transición, prueba de objetivo y costo de camino"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Estado inicial, acciones, modelo de transición, prueba de objetivo y costo de camino",
+      "difficulty_level": 4,
+      "source_quote": "In the preceding section we proposed a formulation of the problem of getting to Bucharest in terms of the initial state, actions, transition model, goal test, and path cost."
     },
     {
       "id": "thu4-mc-5",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 4",
+      "statement": "¿Por qué los teóricos del control llaman sistema de lazo abierto (open-loop) a un agente que ejecuta su secuencia de solución sin mirar el entorno?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque ignora sus percepciones al elegir la acción, lo que rompe el lazo entre el agente y el entorno",
+        "Porque vuelve a planificar después de cada acción según lo que percibe",
+        "Porque su espacio de estados no contiene ningún estado objetivo",
+        "Porque elige sus acciones al azar mientras ejecuta el plan"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque ignora sus percepciones al elegir la acción, lo que rompe el lazo entre el agente y el entorno",
+      "difficulty_level": 8,
+      "source_quote": "Control theorists call this an open-loop system, because ignoring the percepts breaks the loop between agent and environment."
     },
     {
       "id": "tue5-tf-1",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 5",
+      "statement": "En el aprendizaje por refuerzo pasivo, la política del agente es fija y su objetivo es aprender qué tan buena es esa política.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "Its goal is simply to learn how good the policy is"
     },
     {
       "id": "tue5-tf-2",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 5",
+      "statement": "Un agente de Q-learning necesita un modelo del entorno para poder comparar las utilidades esperadas de sus acciones disponibles.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "A Q-learning agent, on the other hand, can compare the expected utilities for its available choices without needing to know their outcomes, so it does not need a model of the environment."
     },
     {
       "id": "tue5-tf-3",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 5",
+      "statement": "El aprendizaje por diferencias temporales (TD) necesita un modelo de transición para poder realizar sus actualizaciones.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "Notice that TD does not need a transition model to perform its updates."
     },
     {
       "id": "tue5-tf-4",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 5",
+      "statement": "La estimación directa de la utilidad aprovecha que las utilidades de los estados no son independientes entre sí, ya que obedecen las ecuaciones de Bellman.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 8,
+      "source_quote": "Unfortunately, it misses a very important source of information, namely, the fact that the utilities of states are not independent!"
     },
     {
       "id": "tue5-tf-5",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 5",
+      "statement": "Según Russell y Norvig, el agente pasivo de programación dinámica adaptativa (ADP) se vuelve intratable en espacios de estados grandes.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "It is, however, intractable for large state spaces."
     },
     {
       "id": "tue5-mc-1",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 5",
+      "statement": "En el aprendizaje por refuerzo, ¿cómo se llama la retroalimentación que le indica al agente que ocurrió algo bueno o algo malo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Etiqueta de entrenamiento supervisado",
+        "Recompensa o refuerzo (reward, or reinforcement)",
+        "Modelo de transición del entorno",
+        "Función de activación"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Recompensa o refuerzo (reward, or reinforcement)",
+      "difficulty_level": 2,
+      "source_quote": "This kind of feedback is called a reward, or reinforcement."
     },
     {
       "id": "tue5-mc-2",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 5",
+      "statement": "¿Qué aprende un agente de Q-learning?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Una política que mapea directamente estados a acciones, sin estimar utilidades",
+        "Una función de utilidad sobre estados que usa junto con un modelo del entorno",
+        "Únicamente el modelo de transición P(s' | s, a) por máxima verosimilitud",
+        "Una función acción-utilidad (función Q) que da la utilidad esperada de tomar una acción en un estado"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Una función acción-utilidad (función Q) que da la utilidad esperada de tomar una acción en un estado",
+      "difficulty_level": 3,
+      "source_quote": "A Q-learning agent learns an action-utility function, or Q-function, giving the expected utility of taking a given action in a given state."
     },
     {
       "id": "tue5-mc-3",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 5",
+      "statement": "¿Por qué el agente codicioso (greedy agent) del capítulo 21 suele converger a políticas subóptimas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque usa una tasa de aprendizaje demasiado alta",
+        "Porque elige una acción aleatoria en cada paso",
+        "Porque lo que es óptimo en el modelo que aprendió puede ser subóptimo en el entorno real",
+        "Porque no recibe recompensas en los estados no terminales"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque lo que es óptimo en el modelo que aprendió puede ser subóptimo en el entorno real",
+      "difficulty_level": 7,
+      "source_quote": "the learned model is not the same as the true environment; what is optimal in the learned model can therefore be suboptimal in the true environment."
     },
     {
       "id": "tue5-mc-4",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 5",
+      "statement": "¿Qué exige un esquema de exploración GLIE (greedy in the limit of infinite exploration)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Probar cada acción en cada estado un número ilimitado de veces y, eventualmente, volverse codicioso",
+        "Seguir siempre la política codiciosa sin explorar nunca",
+        "Elegir siempre una acción aleatoria con una probabilidad fija",
+        "Explorar únicamente los estados terminales del entorno"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Probar cada acción en cada estado un número ilimitado de veces y, eventualmente, volverse codicioso",
+      "difficulty_level": 8,
+      "source_quote": "A GLIE scheme must try each action in each state an unbounded number of times to avoid having a finite probability that an optimal action is missed because of an unusually bad series of outcomes."
     },
     {
       "id": "tue5-mc-5",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 5",
+      "statement": "¿Cómo debe comportarse la función de exploración f(u, n) del agente ADP activo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Decreciente en u y creciente en n",
+        "Creciente tanto en u como en n",
+        "Creciente en u y decreciente en n",
+        "Constante en u y decreciente en n"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Creciente en u y decreciente en n",
+      "difficulty_level": 6,
+      "source_quote": "The function f(u, n) should be increasing in u and decreasing in n."
     }
   ]
 }
