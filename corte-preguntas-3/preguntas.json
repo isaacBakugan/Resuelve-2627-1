@@ -1,566 +1,566 @@
 {
-  "team": "",
+  "team": "Resuelve",
   "assignment": "corte-preguntas-3",
   "questions": [
     {
       "id": "tue7-tf-1",
       "reading": "tuesday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 7",
+      "statement": "En el modelo de evolución descrito, la selección natural actúa directamente sobre los genes y no sobre los fenotipos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
+      "correct_option": "Falso",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "As natural selection operates only on the phenotypic expressions of the genotype"
     },
     {
       "id": "tue7-tf-2",
       "reading": "tuesday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 7",
+      "statement": "Un mismo conjunto de genes puede dar lugar a comportamientos distintos cuando cambia el entorno.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "the same set of genetics can correspond to alternative observed behaviors when exposed in different environments."
     },
     {
       "id": "tue7-tf-3",
       "reading": "tuesday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 7",
+      "statement": "Según el capítulo, la aptitud de un organismo se define sin considerar el entorno en que vive.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 8,
+      "source_quote": "fitness is defined as the ability to survive and reproduce in a specific environment"
     },
     {
       "id": "tue7-tf-4",
       "reading": "tuesday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 7",
+      "statement": "La búsqueda exhaustiva siempre es práctica, incluso cuando el espacio de soluciones es gigantesco.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 2,
+      "source_quote": "the time required to find it may be prohibitive."
     },
     {
       "id": "tue7-tf-5",
       "reading": "tuesday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 7",
+      "statement": "Los autores indican que ningún operador de búsqueda es superior a todos los demás para cada problema.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 6,
+      "source_quote": "across all problems no single search operator is superior to any other."
     },
     {
       "id": "tue7-mc-1",
       "reading": "tuesday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 7",
+      "statement": "¿Qué describe la pleiotropía en la relación entre genes y caracteres fenotípicos?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Un gen afecta múltiples caracteres fenotípicos",
+        "Un carácter fenotípico depende de un solo gen",
+        "Varios genes producen un único gen",
+        "El ambiente elimina toda variación genética"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Un gen afecta múltiples caracteres fenotípicos",
+      "difficulty_level": 3,
+      "source_quote": "Pleiotropy is the effect where a single gene affects multiple phenotypic characters."
     },
     {
       "id": "tue7-mc-2",
       "reading": "tuesday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 7",
+      "statement": "¿Qué significa poligenia en el vínculo entre genes y caracteres?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Un gen afecta muchos caracteres",
+        "Un carácter fenotípico es afectado por múltiples genes",
+        "Cada gen produce un único comportamiento",
+        "El ambiente transforma directamente los genes"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Un carácter fenotípico es afectado por múltiples genes",
+      "difficulty_level": 4,
+      "source_quote": "Polygeny is the effect where a single phenotypic character is affected by multiple genes."
     },
     {
       "id": "tue7-mc-3",
       "reading": "tuesday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 7",
+      "statement": "¿Qué se hace al evaluar la población en un algoritmo evolutivo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Se eliminan todos los individuos",
+        "Se fija una representación binaria",
+        "Se asigna una puntuación a cada individuo",
+        "Se detiene la búsqueda"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Se asigna una puntuación a cada individuo",
+      "difficulty_level": 7,
+      "source_quote": "assign a score to each individual"
     },
     {
       "id": "tue7-mc-4",
       "reading": "tuesday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 7",
+      "statement": "¿Qué conjunto enumera las cuatro funciones del ciclo evolutivo descrito en el capítulo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Mutación, selección, epigénesis y supervivencia genotípica",
+        "Selección, recombinación, reproducción y aprendizaje",
+        "Supervivencia fenotípica, mutación, recombinación y adaptación",
+        "Epigénesis, selección, supervivencia genotípica y mutación"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Epigénesis, selección, supervivencia genotípica y mutación",
+      "difficulty_level": 5,
+      "source_quote": "epigenesis, selection, genotypic survival, and mutation"
     },
     {
       "id": "tue7-mc-5",
       "reading": "tuesday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 7",
+      "statement": "¿Qué elementos se consideran al describir la estructura de un algoritmo evolutivo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Representación de soluciones, operadores de búsqueda y operadores de selección",
+        "Tamaño de población, precisión y criterio de parada",
+        "Codificación binaria, gradiente y función objetivo",
+        "Mutación, aprendizaje supervisado y memoria"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Representación de soluciones, operadores de búsqueda y operadores de selección",
+      "difficulty_level": 9,
+      "source_quote": "data structures that are used to represent solutions, the search operators that are applied to those data structures, and the selection operators"
     },
     {
       "id": "thu7-tf-1",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 7",
+      "statement": "Para estar bien definido, un problema de optimización debe permitir comparar una solución posible con otra.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "any possible solution to the problem must be comparable to another possible solution."
     },
     {
       "id": "thu7-tf-2",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 7",
+      "statement": "La computación evolutiva interactiva excluye el juicio humano y exige una medida numérica automática.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "a human provides a judgment about the quality of proposed solutions."
     },
     {
       "id": "thu7-tf-3",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 7",
+      "statement": "En paisajes suaves, convexos y continuos, los métodos de gradiente suelen hallar antes el único óptimo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 8,
+      "source_quote": "gradient or related methods of optimization will be faster in locating the single optimum point."
     },
     {
       "id": "thu7-tf-4",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 7",
+      "statement": "En el problema del viajante, el número de rutas posibles crece linealmente con el número de ciudades.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 2,
+      "source_quote": "the total number of possible solutions increases as a factorial function of the number of cities."
     },
     {
       "id": "thu7-tf-5",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 7",
+      "statement": "En la selección tipo coma, los padres sobreviven cada generación junto con los descendientes.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "the parents die each generation"
     },
     {
       "id": "thu7-mc-1",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 7",
+      "statement": "¿Qué describe mejor una solución en un problema de optimización combinatoria?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Un punto real dentro de un espacio continuo",
+        "Una combinación de elementos que puede listarse",
+        "Un valor único de una función diferenciable",
+        "Una derivada evaluada en el óptimo"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Una combinación de elementos que puede listarse",
+      "difficulty_level": 3,
+      "source_quote": "a combination of items that can be listed."
     },
     {
       "id": "thu7-mc-2",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 7",
+      "statement": "¿Cómo se evalúa a menudo una solución en computación evolutiva interactiva?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Mediante una matriz de transición",
+        "Con una derivada analítica",
+        "A partir del juicio de una persona",
+        "Por el número de genes"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "A partir del juicio de una persona",
+      "difficulty_level": 4,
+      "source_quote": "a human provides a judgment about the quality of proposed solutions."
     },
     {
       "id": "thu7-mc-3",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 7",
+      "statement": "¿Qué caracteriza a la optimización de caja negra descrita para una función desconocida?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Se conoce su expresión simbólica y su gradiente",
+        "La solución se obtiene enumerando todas las entradas",
+        "La función solo acepta permutaciones",
+        "La función devuelve un valor cuando se le da un número"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "La función devuelve un valor cuando se le da un número",
+      "difficulty_level": 7,
+      "source_quote": "responded with a number any time we put a number in the box."
     },
     {
       "id": "thu7-mc-4",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 7",
+      "statement": "¿Cómo opera la selección por torneo en su forma común?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Elige un subconjunto y selecciona al mejor de sus individuos",
+        "Selecciona siempre el individuo peor clasificado",
+        "Asigna igual probabilidad a toda la población",
+        "Mantiene únicamente a los padres originales"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Elige un subconjunto y selecciona al mejor de sus individuos",
+      "difficulty_level": 5,
+      "source_quote": "selects a subset of size q (often q = 2) from the existing population and selects the best of those q individuals"
     },
     {
       "id": "thu7-mc-5",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 7",
+      "statement": "¿Qué afirma el principio de no hay almuerzo gratis sobre los métodos de optimización?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Un algoritmo evolutivo supera siempre a los métodos de gradiente",
+        "Ningún método es el mejor para resolver todos los problemas",
+        "La selección proporcional es óptima en cualquier contexto",
+        "Todo problema admite una solución exacta"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Ningún método es el mejor para resolver todos los problemas",
+      "difficulty_level": 9,
+      "source_quote": "there truly is no single best approach to computational (i.e., computer-based) problem solving generally"
     },
     {
       "id": "tue8-tf-1",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 8",
+      "statement": "El ejemplo de sonar muestra que dos predicciones correctas pueden tener distinto valor operativo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "Equally correct predictions are not of equal worth."
     },
     {
       "id": "tue8-tf-2",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 8",
+      "statement": "En un modelo autorregresivo, los valores futuros dependen de valores previos de la variable observada.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "a function of prior values of the observed variable."
     },
     {
       "id": "tue8-tf-3",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 8",
+      "statement": "Un modelo ARMAX omite las entradas externas y solo usa valores pasados y ruido.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 8,
+      "source_quote": "This is then called an ARMAX model (ARMA + eXternal inputs)."
     },
     {
       "id": "tue8-tf-4",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 8",
+      "statement": "Un modelo muy complejo que ajusta el ruido histórico necesariamente predice mejor los datos futuros.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 2,
+      "source_quote": "these overly complex models tend to predict poorly because future data are by definition uncorrelated to the noise in past data."
     },
     {
       "id": "tue8-tf-5",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 8",
+      "statement": "En el ejemplo logístico del capítulo, el valor x[t − 1] participa en la ecuación que genera x[t + 1].",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "do not enter into (12.22)"
     },
     {
       "id": "tue8-mc-1",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 8",
+      "statement": "¿De qué información se obtiene una predicción futura en un modelo autorregresivo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "únicamente de entradas externas desconocidas",
+        "De la cantidad de parámetros del modelo",
+        "De los valores previos de la variable observada",
+        "De una clasificación hecha por una persona"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "De los valores previos de la variable observada",
+      "difficulty_level": 3,
+      "source_quote": "value of y at time t and the value of y at time"
     },
     {
       "id": "tue8-mc-2",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 8",
+      "statement": "¿Qué añade una estructura ARMAX a un modelo ARMA?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Una capa oculta adicional",
+        "Una función de aptitud cualitativa",
+        "Una restricción de selección por torneo",
+        "Una entrada externa representada por u[t]"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Una entrada externa representada por u[t]",
+      "difficulty_level": 4,
+      "source_quote": "u[t] is the control input"
     },
     {
       "id": "tue8-mc-3",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 8",
+      "statement": "¿Qué ventaja de los algoritmos evolutivos se destaca al optimizar modelos con costos no estándar?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Pueden optimizar coeficientes frente a una función de costo arbitraria",
+        "Solo admiten errores cuadráticos",
+        "Eliminan la necesidad de datos observados",
+        "Garantizan que toda predicción sea exacta"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Pueden optimizar coeficientes frente a una función de costo arbitraria",
+      "difficulty_level": 7,
+      "source_quote": "responsive to any arbitrary cost function"
     },
     {
       "id": "tue8-mc-4",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 8",
+      "statement": "¿Cuántas unidades de entrada, ocultas y de salida tenía la red usada para modelar la serie logística?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Una de entrada, dos ocultas y dos de salida",
+        "Dos de entrada, dos ocultas y una de salida",
+        "Dos de entrada, una oculta y dos de salida",
+        "Una de entrada, una oculta y una de salida"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Dos de entrada, dos ocultas y una de salida",
+      "difficulty_level": 5,
+      "source_quote": "It had two input units, two hidden units, and a single output unit"
     },
     {
       "id": "tue8-mc-5",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 8",
+      "statement": "¿Qué dos aspectos combina el criterio AIC al evaluar los modelos del ejemplo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "La cantidad de datos y el tamaño de la población",
+        "La tasa de mutación y la longitud de las series",
+        "El ajuste a los datos y la cantidad de parámetros",
+        "La precisión y el tiempo de entrenamiento"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "El ajuste a los datos y la cantidad de parámetros",
+      "difficulty_level": 9,
+      "source_quote": "the AIC incorporates both the goodness-of-fit of a model and also the number of parameters used."
     },
     {
       "id": "thu8-tf-1",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 8",
+      "statement": "En PSO, cada partícula recuerda la ubicación que produjo su mejor resultado previo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "Each particle is given a memory. It remembers the location that has yielded the best result from the objective function."
     },
     {
       "id": "thu8-tf-2",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 8",
+      "statement": "El tamaño de la población de un algoritmo de evolución diferencial debe ser al menos cuatro individuos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "The population size needs to be at least four individuals"
     },
     {
       "id": "thu8-tf-3",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 8",
+      "statement": "En PSO, la magnitud de la velocidad de las partículas nunca necesita limitarse.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 8,
+      "source_quote": "a limit is placed on the velocity in each dimension, Vmax."
     },
     {
       "id": "thu8-tf-4",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 8",
+      "statement": "Las feromonas en la optimización por colonia de hormigas permanecen indefinidamente sin evaporarse.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 2,
+      "source_quote": "The pheromone evaporates over time"
     },
     {
       "id": "thu8-tf-5",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 8",
+      "statement": "La computación evolutiva interactiva elimina el juicio humano de la evaluación de aptitud.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "a human’s judgment as the fitness function"
     },
     {
       "id": "thu8-mc-1",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 8",
+      "statement": "¿Qué información social, además de la mejor posición personal, puede guiar la velocidad de una partícula en PSO?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "La posición inicial de todo el enjambre",
+        "La peor posición de la población",
+        "La media de todas las velocidades anteriores",
+        "La mejor posición hallada en su vecindario"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "La mejor posición hallada en su vecindario",
+      "difficulty_level": 3,
+      "source_quote": "the vector that points to the best location of the particles in its neighborhood"
     },
     {
       "id": "thu8-mc-2",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 8",
+      "statement": "¿Cuál es la idea central que diferencia la mutación de evolución diferencial?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Usar diferencias entre vectores de individuos de la población",
+        "Ordenar las soluciones según una ruta de ciudades",
+        "Modificar exclusivamente el tamaño de la población",
+        "Evitar cualquier recombinación entre soluciones"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Usar diferencias entre vectores de individuos de la población",
+      "difficulty_level": 4,
+      "source_quote": "individuals move based on the differential vectors from the individual to other individuals in the population."
     },
     {
       "id": "thu8-mc-3",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 8",
+      "statement": "¿Para qué clase de problemas se usa generalmente la optimización por colonia de hormigas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Regresión lineal de variables continuas",
+        "Optimización combinatoria",
+        "Estimación de gradientes locales",
+        "Clasificación exclusiva de señales"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Optimización combinatoria",
+      "difficulty_level": 7,
+      "source_quote": "is used generally for combinatorial optimization problems."
     },
     {
       "id": "thu8-mc-4",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 8",
+      "statement": "¿Qué criterio puede guiar la búsqueda en la computación evolutiva interactiva?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "La derivada de una función convexa",
+        "Una matriz de transición fija",
+        "El juicio humano sobre las soluciones",
+        "La longitud de los cromosomas únicamente"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "El juicio humano sobre las soluciones",
+      "difficulty_level": 5,
+      "source_quote": "judgment as the fitness function"
     },
     {
       "id": "thu8-mc-5",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 8",
+      "statement": "¿Qué se buscaba optimizar en el experimento de placas articuladas descrito?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Maximizar la masa de cada placa",
+        "Aumentar el número de articulaciones",
+        "Reducir el volumen de aire del túnel",
+        "Minimizar el arrastre aerodinámico del conjunto"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Minimizar el arrastre aerodinámico del conjunto",
+      "difficulty_level": 9,
+      "source_quote": "The objective was to adjust the angles between the plates such that the overall set of plates would have minimum drag."
     }
   ]
 }
