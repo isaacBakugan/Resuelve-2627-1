@@ -1,0 +1,11 @@
+# SimCity - ciudad de ejemplo del equipo Resuelve
+# zone <tipo> <columna> <fila> <nivel>
+zone r C 4 16
+zone c J 3 4
+zone c J 9 3
+zone i Q 2 26
+zone i Q 9 3
+# road <columna> <fila> <fin>  (igual que el comando "a")
+road C 7 W
+road H 2 14
+road P 1 12
